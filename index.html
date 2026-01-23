@@ -1,0 +1,133 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HomeWise – Smart Home & Budget Manager</title>
+
+  <!-- SEO -->
+  <meta name="description" content="HomeWise helps you manage your home items, utilities, and budget offline with a clean, simple experience." />
+
+  <!-- Theme -->
+  <meta name="theme-color" content="#1F2937" />
+
+  <!-- Favicon -->
+  <link rel="icon" href="/App/icons/android-launchericon-192-192.png" />
+
+  <style>
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      background: linear-gradient(135deg, #111827, #1F2937);
+      color: #ffffff;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .container {
+      max-width: 900px;
+      padding: 24px;
+      text-align: center;
+    }
+
+    .logo {
+      width: 96px;
+      height: 96px;
+      border-radius: 24px;
+      margin-bottom: 16px;
+    }
+
+    h1 {
+      font-size: 2.2rem;
+      margin-bottom: 12px;
+    }
+
+    p {
+      font-size: 1.1rem;
+      color: #d1d5db;
+      margin-bottom: 32px;
+    }
+
+    .buttons {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 16px;
+      justify-content: center;
+    }
+
+    .btn {
+      padding: 14px 24px;
+      font-size: 1rem;
+      font-weight: 600;
+      border-radius: 12px;
+      border: none;
+      cursor: pointer;
+      text-decoration: none;
+      transition: transform 0.15s ease, box-shadow 0.15s ease;
+    }
+
+    .btn-primary {
+      background: #2563eb;
+      color: white;
+      box-shadow: 0 8px 20px rgba(37, 99, 235, 0.35);
+    }
+
+    .btn-primary:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 12px 28px rgba(37, 99, 235, 0.45);
+    }
+
+    .btn-secondary {
+      background: #111827;
+      color: #e5e7eb;
+      border: 1px solid #374151;
+    }
+
+    .btn-secondary:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+    }
+
+    .platform-note {
+      margin-top: 28px;
+      font-size: 0.9rem;
+      color: #9ca3af;
+    }
+
+    footer {
+      margin-top: 48px;
+      font-size: 0.8rem;
+      color: #6b7280;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="/app/icons/Icon-192.png" alt="HomeWise Logo" class="logo" />
+    <h1>HomeWise</h1>
+    <p>
+      Manage your <strong>home items</strong>, <strong>utilities</strong>, and <strong>budget</strong> —
+      fully offline, fast, and simple.
+    </p>
+
+    <div class="buttons">
+      <!-- PWA / Web App -->
+      <a href="/app/" class="btn btn-primary">Open Web App</a>
+
+      <!-- APK (placeholder for later) -->
+      <a href="#" class="btn btn-secondary">Download Android APK</a>
+    </div>
+
+    <div class="platform-note">
+      💡 iPhone users can open the web app and add it to Home Screen for an app-like experience.
+    </div>
+
+    <footer>
+      © 2026 HomeWise. All rights reserved.
+    </footer>
+  </div>
+</body>
+</html>
